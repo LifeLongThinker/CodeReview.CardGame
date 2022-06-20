@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Card Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <h1>Card Game!</h1>
+        
+    <div class="gameContainer">
+        <section>
+            <h2>Human</h2>
+            <div class="humanCards">
+                <img id="humanDeck" src="https://www.pngkey.com/png/full/807-8072911_fashion-trend-photography-material-royalty-free-t-shirt.png" alt="playing card">
+                <img id="humanCardFace" src="" alt="face-up Pile" class="hidden">
+            </div>
+        </section>
+        <section>
+            <h2>Computer</h2>
+            <div class="computerCards">
+                <img id="computerDeck" src="https://www.pngkey.com/png/full/807-8072911_fashion-trend-photography-material-royalty-free-t-shirt.png" alt="playing card">
+                <img id="computerCardFace" src="" alt="face-up Pile" class="hidden">
+            </div>
+        </section>
+    </div>
+
+    <button id="startGame" class="">Start Game</button>
+    <button id="drawCards">Draw Card!</button>
+    <h3 id="result"></h3>
+    
+    <script type="text/javascript" src="game.js"></script>
+
+    </body>
+</html>

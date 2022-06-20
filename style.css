@@ -1,0 +1,46 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body {
+    text-align: center;
+  }
+  
+  .gameContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 50px;
+  }
+  
+  .humanCards, 
+  .computerCards
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
